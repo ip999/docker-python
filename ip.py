@@ -14,5 +14,5 @@ print("JSON Body:\n" + content.text)
 # parse the JSON response
 process_content = json.loads(content.text)
 
-#print out the IP address
+# print out the IP address
 print("IP: " + process_content["ip"])
