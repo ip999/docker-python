@@ -15,5 +15,5 @@ parsed = json.loads(content.text)
 print("JSON Body:")
 print(json.dumps(parsed, indent=4, sort_keys=True))
 
-# print out the IP address
+# print out just the IP address
 print("IP: " + parsed["ip"])
