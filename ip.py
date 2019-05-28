@@ -11,7 +11,7 @@ content = requests.get(url)
 # parse the JSON response
 parsed = json.loads(content.text)
 
-# print out entire JSON response
+# print out entire JSON response (makes the next excercise easier)
 print("JSON Body:")
 print(json.dumps(parsed, indent=4, sort_keys=True))
 
