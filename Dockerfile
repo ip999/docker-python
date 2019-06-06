@@ -4,6 +4,6 @@ COPY requirements.txt /tmp/
 
 RUN pip install -r /tmp/requirements.txt
 
-COPY app.py .
+COPY ip.py .
 
-CMD [ "python", "./app.py" ]
+CMD [ "python", "./ip.py" ]
